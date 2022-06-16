@@ -1,0 +1,82 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(https://imageio.forbes.com/specials-images/dam/imageserve/1128442176/960x0.jpg?format=jpg&width=960);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://imageio.forbes.com/specials-images/dam/imageserve/1128442176/960x0.jpg?format=jpg&width=960);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+#box{
+    margin-left: auto;
+    margin-right: auto;
+    height: 45vw;
+    width: 25vw;
+    overflow: auto;
+  }
+.user{
+    list-style-type: none;
+    height: 5vw;
+    width: 19vw;
+    margin-bottom: 1vw;
+  }
+.image{
+    width: 5vw;
+    height: 5vw;
+    float: left;
+    img{
+      background-color: gray;
+      width: 4vw;
+      height: 4vw;
+      margin: 0.5vw;
+    }
+  }
+.text_boxes{
+    width: 10vw;
+    height: 5vw;
+    float: left;
+    .user_username{
+      font-size: 1.2vw;
+      margin-top: 0.3vw;
+      margin-bottom: 0.3vw;
+      font-weight:bold;
+      color: #ffffff;
+    }
+    .user_email{
+      font-size: 1vw;
+      margin-top: 0.3vw;
+      margin-bottom: 0.3vw;
+      font-weight:bold;
+      color: #ffffff;
+    }
+    .user_role{
+      font-size: 0.8vw;
+      margin-top: 0.3vw;
+      margin-bottom: 0.3vw;
+      font-weight:bold;
+      color: #ffffff;
+    }
+  }
+.buttons{
+    width: 4vw;
+    height: 1vw;
+    margin-top: 0.7vw;
+    margin-bottom: 0.7vw;
+    background-color: white;
+    border : 1px solid #d72130;
+    font-size: 0.8vw;
+    color: #d72130;
+    &:hover{
+      background-color: #e02232;
+      border : none;
+      color: white;
+      transition: 0.4s;
+    }
+    &:focus{
+      background-color: #c80515;
+      border : none;
+      color: white;
+      transition: 0.4s;
+    }
+  }
+  
+  

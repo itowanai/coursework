@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css\registration.css">
+
+    <title>Registration</title>
+</head>
+<body>
+
+<div class="main_container">
+    <div id="registration">Registration</div>
+    <div class="text_field_label"> username
+        <input formControlName="email" class="text_field" required >
+    </div>
+    <div class="text_field_label"> password
+        <input class="text_field" required type="password">
+    </div>
+    <div class="text_field_label"> confirm password
+        <input class="text_field" required type="password">
+    </div>
+    <div class="text_field_label">role
+        <select class = "dropdown" name="select">
+            <option value="value1" selected>user</option>
+            <option value="value2">admin</option>
+        </select>
+    </div>
+
+    <button id="cancel-btn">cancel</button>
+    <button id="confirm-btn">Sign up</button>
+
+</div>
+
+</body>
+</html>

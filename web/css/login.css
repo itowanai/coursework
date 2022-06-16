@@ -1,0 +1,50 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(https://imageio.forbes.com/specials-images/dam/imageserve/1128442176/960x0.jpg?format=jpg&width=960);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://imageio.forbes.com/specials-images/dam/imageserve/1128442176/960x0.jpg?format=jpg&width=960);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center; }
+
+.main_container {
+  width: 20vw;
+  height: 15vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vw; }
+
+.text_field_label {
+  margin-top: 1vw;
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: #ffffff; }
+  .text_field_label .text_field {
+    margin-top: 0.2vw;
+    height: 2vw;
+    width: 20vw;
+    border: 0.01vw solid #e0e0e0; }
+
+#login {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 4.3vw;
+  margin-right: auto;
+  font-size: 4.2vw;
+  font-weight: bold;
+  color: #ffffff; }
+
+#login-btn {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  width: 20.4vw;
+  height: 2vw;
+  right: 65px;
+  top: 23px;
+  background-color: #320bf6;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  text-decoration: none; }
+  #login-btn:hover {
+    background-color: #140460;
+    transition: 0.1s; }
